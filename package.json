@@ -1,0 +1,23 @@
+{
+  "name": "mydessertbot",
+  "version": "1.0.0",
+  "description": "Telegram bot that gives you random dessert name",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "g"
+  },
+  "keywords": [
+    "dessert",
+    "bot",
+    "telegram"
+  ],
+  "author": "Ady Romantika",
+  "license": "CC-BY-4.0",
+  "dependencies": {
+    "random-dessert-generator": "git+https://github.com/sanijalal/random-dessert-generator.git"
+  }
+}
