@@ -4,7 +4,7 @@ A **very** simple Telegram bot written in Node.js
 
 ## Development
 
-1. Create a bot by contacting [@botfather](https://t.me/botfather) and get your bot token
+1. Create a bot by contacting [@botfather](https://t.me/botfather) and [get your bot token](https://core.telegram.org/bots#6-botfather)
 1. Export the token into the environment variable `TELEGRAM_BOT_TOKEN`
 1. Run `npm install`
 1. Execute the code
