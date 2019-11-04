@@ -6,7 +6,6 @@ const token = process.env.TELEGRAM_BOT_TOKEN;
 const bot = new TelegramBot(token, {polling: true});
 
 bot.onText(/\/start/, (msg) => {
-  console.log(msg);
   const chatId = msg.chat.id;
   var keys = [];
   keys.push({text: "dessert", callback_data: "dessert"});
@@ -16,7 +15,6 @@ bot.onText(/\/start/, (msg) => {
 });
 
 bot.on('callback_query', (callbackQuery) => {
-  console.log(callbackQuery);
   const chatId = callbackQuery.message.chat.id;
   var dessert;
   switch (callbackQuery.data) {
